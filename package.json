@@ -1,0 +1,46 @@
+{
+	"name": "mock-server",
+	"version": "0.0.1",
+	"deprecated": false,
+	"description": "Senti.Act Mock Server service",
+	"main": "server.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/senti-iot/senti-act-mock-server.git"
+	},
+	"keywords": [
+		"Senti.Cloud",
+		"Senti.IoT",
+		"Senti",
+		"IoT",
+		"NodeJS",
+		"Express",
+		"Micro Service"
+	],
+	"author": {
+		"name": "Christian Broberg",
+		"email": "apisupport@senti.cloud",
+		"url": "https://senti.io/"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/senti-iot/senti-act-mock-server/issues"
+	},
+	"homepage": "https://github.com/senti-iot/senti-act-mock-server#readme",
+	"dependencies": {
+		"apisauce": "^1.1.1",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"find-config": "^1.0.0",
+		"helmet": "^3.21.2",
+		"moment": "^2.22.2",
+		"mqtt": "^2.18.8"
+	},
+	"devDependencies": {
+		"eslint": "^6.7.2",
+		"eslint-config-google": "^0.14.0"
+	}
+}
